@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#cabecalho {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+#conteudotres {
+  font-size: 1.2em;
+  text-align: justify;
+  margin: auto;
+  max-width: 800px;
+  line-height: 30px;
+}

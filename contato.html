@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/styletres.css">
   <title>Contato</title>
 </head>
 <body>
-  <header>
+  <header id="cabecalho">
     <img src="imagens/logo.png" alt="">
   </header>
   <nav id="menu">
     <a href="index.html">Home</a> | <a href="quemsomos.html">Quem somos</a> | <a href="contato.html">Contato</a>
   </nav>
   <main>
-    <section>
+    <section id="conteudotres">
       <h1>Entre em contato</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi soluta recusandae, voluptatum hic earum optio suscipit voluptates laudantium eligendi eos vitae numquam, consectetur dicta, quisquam quam nihil perferendis inventore eius.</p>
       <hr>
@@ -25,8 +26,8 @@
         <label for="iassunto">Assunto:</label>
         <input type="text" name="assunto" id="iassunto">
         <br>
-        <label for="idesc">Descrição:</label>
-        <input type="text" name="desc" id="idesc" size="30">
+        Descrição: <br>
+        <textarea name="desc" id="idesc" cols="30" rows="10"></textarea>
       </form>
       <button type="submit">Enviar</button>
     </section>

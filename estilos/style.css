@@ -26,10 +26,13 @@ body, html {
 }
 
 #conteudo {
+  font-size: 1.1em;
   text-align: justify;
-  padding-left: 30px;
+  padding-left: 10px;
   margin-left: 20px;
-  margin: 10px;
+  margin: auto;
+  max-width: 800px;
+  line-height: 30px;
 }
 
 h1 {
